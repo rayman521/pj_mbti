@@ -5,20 +5,23 @@
 
 
 .Mbti_main{
-  width: 40%;
-  height: 40%;
+  width: 800px;
+  height: 800px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 65px;
+  margin-top: 55px;
+  
   border: 2px solid black;
 }
 .Mbti_main img {
-width: 400px;
+width: 500px;
 height: 50%;
+margin-top: 50px;
+margin-bottom: 90px;
 }
 .Mbti_main button {
   width: 50%;
-  height: 65px;
+  height: 15%;
   margin-bottom: 30px;
   border-radius: 20px;
   font-size: 30px;
@@ -27,16 +30,34 @@ height: 50%;
 }
 
 .Qs_content{
-  width: 40%;
-  height: 40%;
+  width: 800px;
+  height: 800px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 30px;
-
+  margin-top: 55px;
+  
   border: 2px solid black;
 }
+.qsList {
 
+  width: 70%;
+  height: 80px;
+  border: 2px solid black;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+}
 
+.Qs_content button{
+  width: 50%;
+  height: 15%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: white;
+  margin-top: 134px;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
